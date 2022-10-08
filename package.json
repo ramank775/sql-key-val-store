@@ -1,0 +1,29 @@
+{
+  "name": "sql-key-val-store",
+  "version": "1.0.0",
+  "description": "Key value store build on top of sql database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramank775/sql-key-val-store.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramank775/sql-key-val-store/issues"
+  },
+  "homepage": "https://github.com/ramank775/sql-key-val-store#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "pg": "^8.8.0",
+    "sequelize": "^6.24.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.5.1"
+  }
+}
